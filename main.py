@@ -95,7 +95,7 @@ while True:
                                 lekcje_nauczyciel = nauczyciel.get(k)
                                 przedmiot = lekcje_nauczyciel['przedmiot']
 
-                                print(f'<{przedmiot.strip("[]")}> prowadzony przez <{k}>utworz')
+                                print(f'<{przedmiot.strip("[]")}> prowadzony przez <{k}>')
 
             elif wybor == "nauczyciel":
                 print('Wybrales opcje nauczyciel.')
